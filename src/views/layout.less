@@ -1,0 +1,88 @@
+.layout {
+	background: #f4f6f9;
+	padding: 1px;
+
+	&-header {
+		position: fixed;
+		width: 100%;
+		top: 0;
+		left: 0;
+		z-index: 1000;
+		.ivu-menu {
+			&-horizontal {
+				height: 65px;
+				line-height: 65px;
+				&:after {
+					display: none !important;
+				}
+			}
+		}
+		&-nav {
+			width: 70%;
+			max-width: 1200px;
+			height: 65px;
+			margin: 0 auto;
+			&-list {
+				height: inherit;
+				&:after {
+					content: "";
+					display: block;
+					clear: both;
+				}
+			}
+		}
+	}
+	&-container {
+		min-height: ~"calc(100vh - 200px)";
+		margin: 20px auto;
+		margin-top: 75px;
+		max-width: 1200px;
+	}
+}
+
+.header-avatar-con {
+	position: relative;
+	float: right;
+	height: 100%;
+	width: 200px;
+	.user-dropdown {
+		&-menu-con {
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: 150px;
+			height: 100%;
+			.main-user-name {
+				display: inline-block;
+				width: 70px;
+				word-break: keep-all;
+				white-space: nowrap;
+				vertical-align: middle;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				text-align: right;
+			}
+		}
+		&-innercon {
+			height: 100%;
+			padding-right: 14px;
+		}
+	}
+}
+.layout-header-nav .ivu-menu-item i {
+	margin-right: 6px;
+}
+.layout-header .ivu-menu {
+	z-index: 901;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+.layout-footer {
+	background: #495060;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+    font-size: medium;
+	height: 80px;
+}
+
+// ----------------- Global -----------------------------//

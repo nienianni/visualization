@@ -1,0 +1,134 @@
+[
+	{
+		"word": "可",
+		"count": 122199
+	},
+	{
+		"word": "视",
+		"count": 110288
+	},
+	{
+		"word": "化",
+		"count": 111620
+	},
+	{
+		"word": "不",
+		"count": 114885
+	},
+	{
+		"word": "想",
+		"count": 132294
+	},
+	{
+		"word": "做",
+		"count": 118574
+	},
+	{
+		"word": "了",
+		"count": 138929
+	},
+	{
+		"word": "markPoint",
+		"count": 18574
+	},
+	{
+		"word": "pie",
+		"count": 38929
+	},
+	{
+		"word": "roseType",
+		"count": 969
+	},
+	{
+		"word": "label",
+		"count": 37517
+	},
+	{
+		"word": "emphasis",
+		"count": 12053
+	},
+	{
+		"word": "yAxis",
+		"count": 57299
+	},
+	{
+		"word": "name",
+		"count": 15418
+	},
+	{
+		"word": "type",
+		"count": 22905
+	},
+	{
+		"word": "gridIndex",
+		"count": 5146
+	},
+	{
+		"word": "normal",
+		"count": 49487
+	},
+	{
+		"word": "itemStyle",
+		"count": 33837
+	},
+	{
+		"word": "min",
+		"count": 4500
+	},
+	{
+		"word": "silent",
+		"count": 5744
+	},
+	{
+		"word": "animation",
+		"count": 4840
+	},
+	{
+		"word": "offsetCenter",
+		"count": 232
+	},
+	{
+		"word": "inverse",
+		"count": 3706
+	},
+	{
+		"word": "borderColor",
+		"count": 4812
+	},
+	{
+		"word": "markLine",
+		"count": 16578
+	},
+	{
+		"word": "line",
+		"count": 76970
+	},
+	{
+		"word": "radiusAxis",
+		"count": 6704
+	},
+	{
+		"word": "radar",
+		"count": 15964
+	},
+	{
+		"word": "data",
+		"count": 60679
+	},
+	{
+		"word": "dataZoom",
+		"count": 24347
+	},
+	{
+		"word": "tooltip",
+		"count": 43420
+	},
+	{
+		"word": "toolbox",
+		"count": 25222
+	},
+	{
+		"word": "geo",
+		"count": 16904
+	}
+]
