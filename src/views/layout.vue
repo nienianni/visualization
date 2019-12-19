@@ -8,20 +8,30 @@
 				<div class="layout-header-nav">
 					<div class="layout-header-nav-list">
                         <!-- 以下导航，配合 router.js 修改 -->
+
 						<MenuItem name="home" to="/">
 						<Icon type="ios-paper" />
-						网站首页
+						首页
 						</MenuItem>
-						<MenuItem name="charts-one" to="/charts/one">
+
+						<MenuItem name="charts-one" to="/charts/one/person">
 						<Icon type="logo-buffer" />
-						可视化一
+							可视化一题目一
 						</MenuItem>
-						<MenuItem name="charts-per" to="/charts/per">
-						<Icon type="md-bicycle" />人员报表</MenuItem>
-						<MenuItem name="charts-class" to="/charts/class">
-						<Icon type="md-battery-full" />类型报表</MenuItem>
+
+						<MenuItem name="charts-per" to="/charts/two/per">
+						<Icon type="md-bicycle" />
+							可视化一题目二
+						</MenuItem>
+
+						<MenuItem name="charts-class" to="/charts/three/class">
+						<Icon type="md-battery-full" />
+							可视化一题目三
+						</MenuItem>
+
 						<MenuItem name="charts-region" to="/charts/region">
-						<Icon type="md-body" />区域报表</MenuItem>
+						<Icon type="md-body" />区域报表
+						</MenuItem>
 						<!-- 若要使用展开菜单 取消以下注释  注意 和上面三个选择一种 -->
 						<!-- <Submenu name="setting">
 							<template slot="title">

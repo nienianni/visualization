@@ -4,10 +4,13 @@ import App from "./app.vue";
 import Routers from "./router.js";
 import VueRouter from "vue-router";
 import "iview/dist/styles/iview.css";
+import echarts from 'echarts';
+import VCharts from 'v-charts';
+Vue.prototype.$echarts=echarts;
 
 //设置为 false 以阻止 vue 在启动时生成生产提示
 Vue.config.productionTip = false;
-
+Vue.use(VCharts);
 Vue.use(iView, {
 	transfer: true
 	// size: "large"
